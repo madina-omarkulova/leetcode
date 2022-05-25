@@ -1,3 +1,5 @@
+package main
+
 func makeEqual(words []string) bool {
 	count := [26]int{}
 	for _, k := range words {
